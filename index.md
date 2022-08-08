@@ -139,6 +139,7 @@ python notebooks/2.0-pg-preprocessing-dataset.py \
 
 #### Usage example,
 > To use required scRNA-seq dataset,
+
 ```sh
 $ python notebooks/2.0-pg-preprocessing-dataset.py -exp {EXPERIMENT NAME}
                                                    -ds  {DATASET NAME} 
@@ -147,12 +148,13 @@ $ python notebooks/2.0-pg-preprocessing-dataset.py -exp {EXPERIMENT NAME}
                                                    -ofn {OUTPUT FILE NAME}
 
 ```
+
 ### C. EXECUTING EXPERIMENT
 
 The following steps are belong to PBMC experiment with 1- and 2-layer designs. The experiment uses **RepeatedStratifiedKFold** cross-validation technique to evaluate the performance of the proposed network.
 
 ```sh
-########################################### a.IMMUNE EXPERIMENT (START) ###########################################
+############### a.IMMUNE EXPERIMENT (START) ###############
 echo "IMMUNE EXPERIMENT"
 analysis_var='evaluate_rskf'
 ds_var='processed/exper_immune/immune_new.pck'
@@ -184,7 +186,9 @@ python notebooks/4.0-pg-model.py \
     -hp_tuning $tuning
 
 ```
+
 #### Usage example,
+
 ```sh
 $ python notebooks/04-pg-model-training.py  -design                   {DESIGN NAME}
                                             -first_hidden_layer_pbk   {BIOLOGICAL KNOWLEDGE}
