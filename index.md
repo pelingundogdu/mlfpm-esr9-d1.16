@@ -8,8 +8,8 @@
 │
 ├── README.md                    <- The top-level README for developers using this project.
 │
-├── data						 <- IT DOES NOT CONTAIN ANY FILES, PLEASE CHECK THE REFERENCE 
-									PAPER TO UPLOAD DATASET
+├── data			 <- IT DOES NOT CONTAIN ANY FILES, PLEASE CHECK THE REFERENCE 
+│				    PAPER TO UPLOAD DATASET
 │   ├── external                 <- Data from third party sources.
 │   ├── processed                <- The final, canonical data sets for modeling.
 │   └── raw                      <- The original, immutable data dump.
@@ -40,6 +40,9 @@
     ├── path_scripts.py          <- scripts for location 
     └── visualization_scripts.py <- scripts for visualization
 ```
+------------------------
+<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+=================================================
 
 ## PROJECT STEPS and USAGE EXAMPLES
 
